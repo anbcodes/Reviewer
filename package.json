@@ -4,14 +4,15 @@
   "description": "",
   "private": true,
   "scripts": {
-    "dev": "webpack --config webpack.config.js --mode development",
+    "dev": "webpack --config webpack.config.js --mode development --watch",
     "build": "webpack --config webpack.config.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "dexie": "^2.0.4"
+    "dexie": "^2.0.4",
+    "jquery": "^3.4.1"
   },
   "devDependencies": {
     "css-loader": "^2.1.1",
