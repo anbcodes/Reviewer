@@ -11,7 +11,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "dexie": "^2.0.4",
+    "dexie": "^3.2.2",
     "jquery": "^3.4.1"
   },
   "devDependencies": {
